@@ -9,30 +9,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  
   <div class="headerContainer"> 
-      <div class="logoTitleContainer">
+    <div class="logoTitleContainer">
           <img src="assets/images/logo.jpg" alt="Logo" class="logo">
           <header><h1>Libro</h1></header>
-      </div>
-      <div class="navContainer"> 
-        <nav> 
-          <ul> 
-            <li><a href="index.php">Home</a></li> 
-            <li><a href="about.php">About</a></li> 
-            <li><a href="contact.php">Contact</a></li> 
-          </ul> 
-        </nav>
-      </div>
+    </div>
+    <div class="navContainer"> 
+      <nav> 
+        <ul> 
+          <li><a href="index.php">Home</a></li> 
+          <li><a href="about.php">About</a></li> 
+          <li><a href="contact.php">Contact</a></li> 
+        </ul> 
+      </nav>
+    </div>
   </div>
 
   <main>
-    <p>This is the main content area.</p>
-    <div class="loginSignupContainer">
-      <a href="login.php" class="loginButton">Login</a>
-      <a href="signup.php" class="signupButton">Sign Up</a>
-    </div>
+    <h2>How to contact us</h2>
+    <p>If you have any questions, feedback, or need assistance, feel free to reach out to us through the following methods:</p>
   </main>
     <?php include 'footer.php'; ?>
+
 </body>
 </html>

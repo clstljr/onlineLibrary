@@ -1,0 +1,89 @@
+/* Form Container Styles */
+.login-container {
+    background: linear-gradient(to bottom right, #1e3a8a, #1e40af); /* Gradient background */
+    padding: 50px 40px; /* Balanced padding for a clean look */
+    border-radius: 20px; /* Softer rounded corners for a modern feel */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+    text-align: center; /* Centers text inside the container */
+    max-width: 600px; /* Default width for forms */
+    width: 100%; /* Ensures responsiveness */
+    margin: 20px auto; /* Adds some spacing around the box */
+}
+
+/* Heading Styles */
+.login-text {
+    font-size: 2.5rem; /* Increase the font size */
+    font-weight: 700; /* Keep it bold for emphasis */
+    color: #ffffff; /* Ensure the text remains white */
+    margin-bottom: 30px; /* Adds spacing below the heading */
+    font-family: 'Poppins', sans-serif; /* Modern font for a professional look */
+    text-align: center; /* Ensures the text is centered */
+}
+
+/* Form Control Styles */
+.form-control {
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background: #f9fafb;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 10px rgba(37, 99, 235, 0.5);
+    background: #ffffff;
+}
+
+/* Button Styles */
+.btn-custom {
+    background: #2563eb;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    transition: background 0.3s, transform 0.2s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-custom:hover {
+    background: #1e40af;
+    transform: scale(1.05);
+}
+
+/* Link Styles */
+
+.text-white {
+    color: white; /* Ensures text is white */
+    font-family: 'Poppins', sans-serif; /* Consistent font for readability */
+    font-size: 1rem; /* Standard font size for links */
+    margin-top: 20px; /* Adds space above the text */
+}
+.text-white a {
+    color: #3b82f6;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.text-white a:hover {
+    color: #1e40af;
+    text-decoration: underline;
+}
+
+/* Center the container vertically and horizontally */
+main {
+    display: flex;
+    justify-content: center; /* Centers the box horizontally */
+    align-items: center; /* Centers the box vertically */
+    min-height: 75vh; /* Ensures the main section takes the full height of the viewport */
+    background: #f4f6f8; /* Light background for contrast */
+    margin: 0; /* Removes any default margin */
+}
